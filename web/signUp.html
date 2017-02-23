@@ -11,8 +11,11 @@
 	<meta name="description" content="" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Sign up</title>
+	<link rel="shortcut icon" href="#" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
@@ -25,35 +28,52 @@
 
 <nav id="nav">
 	<div class="nav-wrapper">
-		<a href="#" class="brand-logo">NC ADVANCED</a>
+		<a href="signUp.html" class="brand-logo">NC Advanced</a>
 		<ul id="nav-mobile" class="right hide-on-med-and-down">
-			<li><a href="signIn.html">Sign in</a></li>
+			<li><a href="signIn.html">Sign In</a></li>
 			<li><a href="signUp.html">Sign up</a></li>
 		</ul>
 	</div>
 </nav>
 <div class="parallax-container">
-	<div class="parallax"><img src="img/background.jpg"></div>
-	<h2 style="
-    text-align: center;
-    color: white;
-        margin-top: 234px;
-">We are great team and so on</h2>
-</div>
-<div class="section white">
+	<div class="parallax"><img src="img/city.jpg"></div>
+	<div class="col-md-12" id="all">
+		<div class="col-md-7">
+			<h2 style="color: white;margin-left: 62px;">Join to us</h2>
+		</div>
+		<div class="col-md-5">
+			<form id="form" accept-charset="UTF-8" action="#" method="post">
+				<div style="margin:0;padding:0;display:inline">
+					<dl class="form">
+						<dd>
+							<input type="text" class="signUp" name="username" placeholder="Pick a username" required>
+						</dd>
+					</dl>
+					<dl class="form">
+						<dd style="margin-top: -34px;">
+							<input type="text" class="signUp" name="emil" placeholder="Your email address" required>
+						</dd>
+					</dl>
+					<dl class="form">
+						<dd style="margin-top: -34px;">
+							<input type="password" class="signUp" name="password" placeholder="Create a password" required>
+						</dd>
+					</dl>
+					<button id="btn" class="btn btn-primary btn-large f3 btn-block" type="submit">Sign up
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
 
 </div>
 
-	<script src="libs/html5shiv/es5-shim.min.js"></script>
-	<script src="libs/html5shiv/html5shiv.min.js"></script>
-	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-	<script src="libs/respond/respond.min.js"></script>
-	<![endif]-->
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
 	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="libs/countdown/jquery.plugin.js"></script>
 	<script src="libs/countdown/jquery.countdown.min.js"></script>
