@@ -86,6 +86,10 @@ nav ul a {
 	transition: 0.7s;
 }
 
+#center_location {
+	margin: 0 auto;
+	width: 500px;
+}
 
 .span_icon{
 	font-size:30px;
