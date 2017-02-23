@@ -68,7 +68,6 @@ nav ul a {
 #form{
 	width: 376px;
 	background-color: rgba(251, 251, 251, 0.8);
-	width: 376px;
 }
 #btn{
 	margin-left: 125px;
@@ -82,7 +81,7 @@ nav ul a {
 	text-decoration: none;
 }
 #nav-mobile li a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 	transition: 0.7s;
 }
 
@@ -92,6 +91,7 @@ nav ul a {
 }
 
 .span_icon{
+	padding-left: 20px;
 	font-size:30px;
 	cursor:pointer;
 }
